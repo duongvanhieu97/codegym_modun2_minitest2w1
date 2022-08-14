@@ -30,6 +30,7 @@ public class Main {
         lowerThanAverageSalary(listE, average);
         totalSalaryEmployeePartTime(listE);
         System.out.println("Sắp xếp danh sách FullTime");
+//        Em bị lỗi đoạn này
         Arrays.sort(listE);
         for (Employee e : listE) {
             if (e instanceof FullTimeE) {
